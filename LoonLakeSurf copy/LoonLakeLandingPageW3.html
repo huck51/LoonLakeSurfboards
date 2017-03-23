@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<title>Loon Lake W3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    .opi {
+        background-color: lightgrey;
+        opacity: .98;
+        border-radius: 15px;
+    }
+    .dock {
+        background-image: url(SurfPics/Background/woodDock.jpeg)
+    }
+    .poopDeckLeft {
+        margin-left: 75px;
+    }
+    .poopDeckCenter {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .poopDeckRight {
+        margin-right: 75px;
+        float: right
+    }
+    .imgSize {
+        width:100%;
+        min-height: 700px;
+        max-height: 700px;
+    }
+    .compartment {
+        height: 50em;
+        width:auto;
+    }
+    .boards {
+        height: auto;
+    }
+    .about {
+        
+    }
+    .contact {
+        padding-bottom: 40px;
+    }
+    .nav {
+        background-color: rgb(96, 217, 178);
+        opacity: 0.9;
+        color: rgb(53, 70, 106);
+        border-style: solid;
+        border-color: rgb(252, 152, 142)
+        
+        
+    }
+    .negs {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 5em;
+        padding-top: 3em;
+        color: rgb(53, 70, 106);
+        text-shadow: 3px 2px rgb(96, 217, 178);
+    }
+    h2 {
+        color: rgb(53, 70, 106);
+        text-shadow: 2px 3px rgb(96, 217, 178);
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        padding-left: 4em;
+    }
+    #aboutPic {
+        height: 25em;
+        width: auto;
+        opacity: .9;
+        padding-top: 2em;
+    }
+</style>
+<body>
+<div>
+    
+<!-- Nav -------------------->
+    
+<div class="w3-top">
+    <div class="w3-row w3-large">
+        <div class="w3-col s3">
+            <a href="#myCarousel" class="w3-button w3-block nav">Home</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#boards" class="w3-button w3-block nav">Boards</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#about" class="w3-button w3-block nav">About</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#contact" class="w3-button w3-block nav">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!--Carousel---------------->
+    
+<div class="mainPitch" style="position: absolute; top: 45px; left: 20px; right: 20px; z-index:1">
+    <div class="container">
+        <div class="row">
+            <h1>Loon Lake Surfboards</h1>
+        </div>
+    </div>    
+</div>
+    
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    
+    <div class="carousel-inner" role="listbox">
+        <div class="item active imgSize">
+            <img class="imgSize" src="pexels-photo.jpg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="pexels-photo-butt.jpg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="pexels-photo-sunset.jpeg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="SurfPics/Carousel/ktSunset.JPG">
+        </div>
+    </div>
+</div>
+
+<!-- Content----------------------->
+    
+<!--Boards-->
+    
+<div class="dock">  
+    <div class="boards compartment negs">
+    <h2 class="negs" id="boards"><u>Boards</u></h2>
+        <div class="row">
+            <div class="col-xs-4 col-md-3 poopDeckLeft">
+                <a href="#" class="thumbnail">
+                    <img id="barrelRider" src="SurfPics/Boards/bambooBlack.jpg" data-other-src="SurfPics/Boards/barrelRiderBack.jpg">
+                    <div class="caption">
+                        <h4>Bamboo Barrel Rider 4'11</h4>
+                        <p>$1 Million</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-4 col-md-3 poopDeckCenter">
+                <a href="#" class="thumbnail">
+                    <img id="whiteLightning" data-other-src="SurfPics/Boards/whiteLightningBack.jpg" src="SurfPics/Boards/whiteLighting.jpg">
+                    <div class="caption">
+                        <h4>White Lighting 4'8</h4>
+                        <p>$1 Million</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-4 col-md-3 poopDeckRight">
+                <a href="#" class="thumbnail">
+                    <img id="mcSurfface" data-other-src="SurfPics/Boards/mcSurffaceBack.jpg" src="SurfPics/Boards/surfyMcSurfFace.jpg">
+                    <div class="caption">
+                        <h4>Surfy McSurf-Face 5'6</h4>
+                        <p>$1 Million</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+<!--About--------------------->
+    
+    <div class="about compartment negs">
+    <h2 class="negs" id="about"><u>About</u></h2>
+        <div class="container opi">
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <img id="aboutPic" src="SurfPics/Misc/pileOfBoards.JPG">
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h3>The Boys Behind The Boards</h3>
+                    <p>"We're Just a couple of home-grown Minnesota boys with a passion for boards, babes, and beers."</p>
+                    <p><b>Justin Conner</b> is board building maverick whose gnarly shredding abilities match his insane God-given talent for craftmanship. He discovered his passion for engineering while building the arc for Noah. (He also built all of the surf boards used by Noah and his family during the flood but the Bible never talks about that.) Since then he has been the mastermind behind the Trojan Horse, the Parthenon, and Apollo 11. Lucky for you he has decided to put all of that begginer shit behind to build top of the line wakesurf boards for you!</p>
+                    <p><b>Evan Allen </b>was both born<em> and </em>concieved on while surfing. True story. Seriously if you don't believe me google it. I fucking dare you. Anyway Evan put his big wave dreams on hold to play quaterback for the University of Wisconsin where he won All-American honors. After blowing out his knee in the Rose Bowl he chose to join the FBI under the pseudonym Johnny Utah. He achieved national fame when he infiltrated and brought a gang of surfing bank robbers. This imfamous case was of course the inspiration for the movie Point Break. Now retired from the FBI Evan spends most of his time shredding waves, building boards, and writing such eloquent code that it is often compared to the works of Shakespear and Henry David Thoreau.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--Contact-------------------->
+    
+    <div class="contact compartment">
+    <h2 class="negs" id="contact"><u>Contact</u></h2>
+<?php 
+$name = $_POST["name"];
+
+?>
+        <div>
+            <form class="container">
+                <label>First Name:</label>
+                    <br  />
+                <input type="text" name="firstName" placeholder="First" size="50px">
+                    <br  />
+                    <br  />
+                <label>Last Name:</label>
+                    <br  />
+                <input type="text" name="lastName" placeholder="Last" size="50px">
+                    <br  />
+                    <br  />
+                <label>Email:</label>
+                    <br  />
+                <input type="text" name="email" placeholder="Ex: soooopitted69@gmail.com" size="50px">
+                    <br  />
+                    <br  />
+                <label>Phone Number:</label>
+                    <br  />
+                <input type="text" name="phoneNumber" placeholder="Ex: 612-555-6969" size="50px">
+                    <br  />
+                    <br  />
+                <label>Message:</label>
+                    <br />
+                <textarea rows="10" cols="60" name="message" placeholder="Message"></textarea>
+                    <br  />
+                <input type="submit">   
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+$(function() {
+    $("img").bind("mouseenter mouseleave", function() {
+        $(this).attr({
+            src: $(this).attr("data-other-src"), 
+            "data-other-src": $(this).attr("src")
+        })
+    });
+ });
+</script>
+</body>
+</html>
