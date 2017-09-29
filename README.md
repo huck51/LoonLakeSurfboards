@@ -1,2 +1,2 @@
 # LoonLakeSurfboards
-This is intended to be a website to sell our custom wakesurf boards.
+An online marketplace for people to buy custom, hand crafted wakesurf boards.
